@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .list-data {
+    @apply text-sm  font-semibold uppercase font-sans cursor-pointer py-1;
+  }
+}
